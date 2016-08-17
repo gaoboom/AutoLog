@@ -97,8 +97,8 @@ namespace AutoLog
         private void doSocket()
         {
             //获得链接的地址,可以是网址也可以是IP
-            Console.WriteLine("Server Address:");
-            //解析输入,如果是一个网址,则解析成ip
+            Console.WriteLine("Server Address:192.168.2.22");
+            //解析输入,如果是一个网址,则解析成ip,这里设定了IP
             IPAddress import = IPAddress.Parse("192.168.2.22");
             //IPAddress import = GetIP(Console.ReadLine());
             //获得端口号
